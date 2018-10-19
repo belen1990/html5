@@ -4,9 +4,9 @@ body{
 
 }
 h1,h2{color: blue}
-h1{font-size: 30px}
+h1{font-size: 30px; font-family: 'Mali', cursive;}
 h2{font-size: 15px}
-a{color:red}
+a:hover{color:red}
 header>p {font-size: 8px}
 header>p>span {color: yellow}
 /*estilos del header*/
@@ -14,3 +14,5 @@ header {border-bottom: blue; }
 /*estilos del header*/
 section>article>p {font-size: 10px; font-style: oblique} 
 section article div{width: 50%}
+button:hover{background: purple; color: peru; cursor: pointer}
+.miboton{background: red; border:0; padding: 10px 20px; text-transform: uppercase; border-radius: 5px}

@@ -5,3 +5,4 @@ article>div>img {width: 100px; border: 20px, blue, solid}
 body {background: black}
 p.azul{background: purple}
 p.rojo {background: pink}
+.bordeado {border: orange}

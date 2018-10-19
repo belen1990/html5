@@ -1,0 +1,4 @@
+article.blue{background-color: blue; width: 200px; height: 200px; border-bottom: rebeccapurple solid 10px; border-radius: 100px}
+article.red{background-color: rgba(255,100,200,0.7); width: 200px; height: 200px; margin: 30px 20px 30px 20px}
+body{background-color: green}
+#rarito {width: 300px; background: peru; display: block}
