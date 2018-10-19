@@ -1,0 +1,7 @@
+p {color: red;font-size: 40px; background: paleturquoise; width: 200px}
+h1{font-size: 60px}
+header img{width: 100px;}
+article>div>img {width: 100px; border: 20px, blue, solid}
+body {background: black}
+p.azul{background: purple}
+p.rojo {background: pink}

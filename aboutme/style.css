@@ -1,0 +1,16 @@
+body{
+    background: grey;
+    color: white
+
+}
+h1,h2{color: blue}
+h1{font-size: 30px}
+h2{font-size: 15px}
+a{color:red}
+header>p {font-size: 8px}
+header>p>span {color: yellow}
+/*estilos del header*/
+header {border-bottom: blue; }
+/*estilos del header*/
+section>article>p {font-size: 10px; font-style: oblique} 
+section article div{width: 50%}
