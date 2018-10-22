@@ -1,9 +1,17 @@
 body{
     font-size: 18px;
-    font-style: verdana;
-    color: white;
-    background: black
-}
-a{color: green}
-#nombre{ background-image:url(./imagenes/name.svg); norepeat}
-#edad{ background-image: url(./imagenes/edad.svg)}
+    font-style: Verdana;
+    color: white;}
+div{background: black}
+a:hoover{color: green;}
+a:hoover{color: red};
+
+input{border-radius: 20px; margin: 10px; padding:5px; width: 90%;}
+
+#nombre{ background-image:url(./imagenes/name.svg); background-repeat: no-repeat; background-position: center left; padding-left: 20px;}
+#edad{ background-image: url(./imagenes/phone.svg); background-repeat: no-repeat;background-position: center left; padding-left: 20px; }
+#e-mail{background-image: url(./imagenes/email.png); background-repeat: no-repeat;background-position: center left; padding-left: 20px;}
+#password{background-image: url(./imagenes/password.svg);background-repeat: no-repeat;background-position: center left; padding-left: 20px;}
+
+button{border:none; padding: 5px 20pax; font-size: 2em; background-color: orangered; color: white;}
+.izquierdo{text-align: right};

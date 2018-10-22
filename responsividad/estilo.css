@@ -1,0 +1,15 @@
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 12px;
+padding: 0;
+margin:0;}
+header>div{ width: 19%; height: 100px;background:red; display: inline-block ;}
+header>nav{ width: 80%; height: 100px;background:blue; display: inline-block ;}
+section>div{ width: 32%; border: 2px solid black;  display: inline-block ; height: 100px}
+article{ width: 1000%; height: 100px;background: yellow;}
+footer{ width: 1000%; height: 100px;background: blue}
+
+
+@media print{}
+
+@media screen and (max-width:435px) 
+{header>div{width: 100%; background: aquamarine }}
