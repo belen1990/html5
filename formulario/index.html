@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body> 
+    <!-- div>(label [for="e-mail"][Email:]+input[id="e-mail" placeholder="Introduce tu email"]-->
+    <h1>Regístrate</h1>
+    <form method="POST" action="receptionform.html">
+    <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" minlength="3" maxlength="30" name="nombre" id="nombre" placeholder="Introduce tu nombre" 
+        required="required" pattern="[a-zA-Z ]*">
+    </div>
+
+    <div>
+        <label for="e-mail">E-mail:</label>
+        <input type="email" name="e-mail" id="e-mail" placeholder="Introduce tu e-mail">
+    </div>
+
+    <div>
+        <label for="edad">Edad:</label>
+        <input type="number" min="14" max="99" name="edad" id="edad" placeholder="Introduce tu edad">
+    </div>
+   <div>
+        <h3>Sexo</h3>
+       <div>
+            <input type="radio" name="sexo" id="m" value="m" > <label for="m" >M</label>   
+       </div>
+       <div>
+            <input type="radio" name="sexo" id="f" value="f" > <label for="f" >F</label>
+        </div>
+        <div>
+            <input type="radio" name="sexo" id="o" value="o" > <label for="o" >OTHER</label>
+        </div>
+   </div>
+
+   <div>
+        <h3>Colores favoritos</h3>
+       <div>
+            <input type="checkbox" name="color" id="rojo" value="rojo" > <label for="rojo" >ROJO</label>   
+       </div>
+       <div>
+            <input type="checkbox" name="color" id="verde" value="verde" > <label for="verde" >VERDE</label>
+        </div>
+        <div>
+            <input type="checkbox" name="color" id="azul" value="azul" > <label for="azul" >AZUL</label>
+        </div>
+
+        <div>
+            <label for="pais" id="pais">PAÍS:</label>
+            <select name="pais" id="pais" required>
+                <option value="0" disable selected>Elegir país</option>
+                <option value="1" >España</option>
+                <option value="2" >Francia</option>
+                <option value="3">Alemania</option>
+            </select>
+        </div>
+        <div>
+            <label class="aloancho" for="cuentame">Cuenta algo de ti</label>
+            <textarea name="cuentame" id="cuentame" placeholder="Di algo interesante"></textarea>
+        </div>
+
+   </div>
+    <div>
+        <button>Registrar</button>
+    </div>
+    </form>
+</body>
+</html>

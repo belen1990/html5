@@ -1,0 +1,9 @@
+body{
+    font-size: 18px;
+    font-style: verdana;
+    color: white;
+    background: black
+}
+a{color: green}
+#nombre{ background-image:url(./imagenes/name.svg); norepeat}
+#edad{ background-image: url(./imagenes/edad.svg)}

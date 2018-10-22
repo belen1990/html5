@@ -1,0 +1,16 @@
+body{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+    background: aquamarine;
+
+}
+label {width: 60px; display: inline-block;}
+input[type=text],input[type=number], input[type=email]{width: :200px; border: 1px solid yellow; padding; 5px; }
+button{
+        padding: 20px 20px;border-radius: 5px;background: red;color: aliceblue;
+        border: none;
+        box-shadow: 3px 3px 5px 10px royalblue; 
+}
+form>div {margin: 10px}
+label.aloancho{width: auto; display: block;}
